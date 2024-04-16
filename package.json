@@ -1,0 +1,32 @@
+{
+  "name": "vs-seti-{{FONT_ID}}",
+  "private": true,
+  "version": "0.0.0",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "publisher": "zongou",
+  "license": "MIT",
+  "icon": "icons/extension-icon.png",
+  "scripts": {
+    "update": "node ./build/update-icon-theme.js"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "%iconThemeId-seti%",
+        "label": "%themeLabel-seti%",
+        "path": "./icon-theme-seti.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zongou/vscode-font.git"
+  }
+}

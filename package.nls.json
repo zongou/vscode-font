@@ -1,0 +1,6 @@
+{
+  "displayName": "Font: {{FONT_NAME}}",
+  "description": "Font for vscode",
+  "iconThemeId-seti": "vs-seti-{{FONT_ID}}",
+  "themeLabel-seti": "Seti ({{FONT_NAME}})"
+}
