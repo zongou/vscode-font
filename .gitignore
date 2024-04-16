@@ -1,0 +1,5 @@
+*.vsix
+fonts
+themes
+latest_release.json
+tmp

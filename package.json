@@ -1,0 +1,23 @@
+{
+  "name": "{EXT_ID}",
+  "private": true,
+  "version": "0.0.0",
+  "displayName": "{EXT_NAME}",
+  "description": "Universal font extension",
+  "publisher": "zongou",
+  "license": "MIT",
+  "icon": "icons/extension-icon.png",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zongou/vscode-font.git"
+  }
+}
