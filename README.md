@@ -13,6 +13,7 @@ With this extension we can:
 
 ```json
   "workbench.iconTheme": "vs-seti-{{FONT_ID}}",
-  "editor.fontLigatures": true,
   "editor.fontFamily": "'{{FONT_NAME}}', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontLigatures": true,
 ```
